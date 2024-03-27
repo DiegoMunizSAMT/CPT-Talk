@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f2326;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2f3437;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    /* Set both input fields to take full width */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #ff6f00;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff9000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+    border: 1px solid #3c4144;
+}
+
+.anime-container {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    /* Fixed width for each anime container */
+    margin: 10px;
+    white-space: nowrap;
+    /* Prevent line breaks */
+    overflow: hidden;
+    /* Hide overflow content */
+    text-overflow: ellipsis;
+    /* Display ellipsis (...) for overflow content */
+    cursor: pointer;
+}
+
+.anime-wrapper {
+    text-align: center;
+}
